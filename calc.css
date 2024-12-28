@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:#E6EBE0 ;
+}
+
+h1{
+    padding-bottom: 5vh;
+    font-size: 5vh;
+    color: #013f3e;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 40vh;
+    padding: 5vh;
+    border-radius: 2vh;
+    background-color: #36C9C6;
+}
+
+.result{
+    height: 8vh;
+    width: 105%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vh;
+    font-size: 4vh;
+    background-color: antiquewhite;
+}
+
+.display{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.function{
+    font-size: 4vh;
+    width: 5%;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    padding-top: 5vh;
+    padding-left: 3vh;
+}
+
+.button{
+    height: 8vh;
+    width: 7.5vh;
+    font-size: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border-radius: 2vh;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F1BB;
+    cursor: pointer;
+}
+
+.button1,.button3,.button4{
+    height: 8vh;
+    width: 7.5vh;
+    font-size: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border: none;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9f495;
+    cursor: pointer;
+}
+
+.button2{
+    height: 8vh;
+    width: 7.5vh;
+    font-size: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border-radius: 2vh;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #227cfa;
+    cursor: pointer;
+}
